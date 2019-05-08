@@ -130,6 +130,9 @@
   text-align: center;
   padding-top: 40%; }
 .servicios .imagenes .img-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   background: url(../img/servicio-1.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -139,68 +142,220 @@
   .servicios .imagenes .img-1 a {
     color: white;
     text-decoration: none !important;
-    height: 100% !important;
-    width: 100% !important; }
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
 .servicios .imagenes .img-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   background: url(../img/servicio-1.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 207px;
   width: 240px;
   border-radius: 2px; }
+  .servicios .imagenes .img-2 a {
+    color: white;
+    text-decoration: none !important;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
 .servicios .imagenes .img-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   background: url(../img/servicio-1.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 207px;
   width: 240px;
   border-radius: 2px; }
+  .servicios .imagenes .img-3 a {
+    color: white;
+    text-decoration: none !important;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
 .servicios .imagenes .img-4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   background: url(../img/servicio-1.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 207px;
   width: 240px;
   border-radius: 2px; }
+  .servicios .imagenes .img-4 a {
+    color: white;
+    text-decoration: none !important;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
 .servicios .imagenes .img-5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   background: url(../img/servicio-1.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 207px;
   width: 240px;
   border-radius: 2px; }
+  .servicios .imagenes .img-5 a {
+    color: white;
+    text-decoration: none !important;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
 .servicios .imagenes .img-6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   background: url(../img/servicio-1.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 207px;
   width: 240px;
   border-radius: 2px; }
+  .servicios .imagenes .img-6 a {
+    color: white;
+    text-decoration: none !important;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
 .servicios .imagenes .img-7 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   background: url(../img/servicio-1.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 207px;
   width: 240px;
   border-radius: 2px; }
+  .servicios .imagenes .img-7 a {
+    color: white;
+    text-decoration: none !important;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
 .servicios .imagenes .img-8 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   background: url(../img/servicio-1.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 207px;
   width: 240px;
   border-radius: 2px; }
+  .servicios .imagenes .img-8 a {
+    color: white;
+    text-decoration: none !important;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
 .servicios .imagenes .img-9 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   background: url(../img/servicio-1.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 207px;
   width: 240px;
   border-radius: 2px; }
+  .servicios .imagenes .img-9 a {
+    color: white;
+    text-decoration: none !important;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
 .servicios .imagenes .img-10 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   background: url(../img/servicio-1.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 207px;
   width: 240px;
   border-radius: 2px; }
+  .servicios .imagenes .img-10 a {
+    color: white;
+    text-decoration: none !important;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
