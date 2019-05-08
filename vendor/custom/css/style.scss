@@ -1,0 +1,364 @@
+.navbar {
+    background-color: rgb(255, 255, 255)!important;
+    color: #707070!important;
+    .nav-item {
+        height: 83px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .nav-link {
+        transition: all .3s ease-in-out;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .nav-link.active {
+        background: #000000 !important;
+        color: white!important;
+    }
+    a {
+        color: #707070!important;
+    }
+}
+
+//INICIO
+.inicio {
+    z-index: 1;
+    .item-1 {
+        background: url("../img/inicio.png") center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        .tit-inicio {
+            color: white;
+            font-size: 51px;
+            font-weight: 700;
+            background-color: rgba(0, 0, 0, 0.5);
+            height: 84px;
+            width: 100%;
+            padding-left: 10%;
+        }
+    }
+}
+
+//soluciones
+.soluciones {
+    .txt-soluciones {
+        p {
+            background-color: #FF0000;
+            color: white;
+            text-align: center;
+            font-size: 40px;
+            margin-bottom: 0px;
+        }
+    }
+    .solucion {
+        width: 100%;
+        height: 787px;
+        .owl-carousel {
+            .owl-nav {
+                position: absolute;
+                top: 50%;
+                width: 100%;
+                .owl-prev {
+                    background-color: #FF0000;
+                    position: absolute;
+                    left: 50px;
+                }
+                .owl-next {
+                    background-color: aqua;
+                    position: absolute;
+                    right: 50px;
+                }
+            }
+            .item-1 {
+                background-color: #FFFFFF;
+                background-size: cover;
+                background-repeat: no-repeat;
+                height: 100vh;
+            }
+            .item-2 {
+                background-color: gray;
+                background-size: cover;
+                background-repeat: no-repeat;
+                height: 100vh;
+            }
+            .item-3 {
+                background-color: wheat;
+                background-size: cover;
+                background-repeat: no-repeat;
+                height: 100vh;
+            }
+            .item-4 {
+                background-color: burlywood;
+                background-size: cover;
+                background-repeat: no-repeat;
+                height: 100vh;
+            }
+        }
+    }
+    .solucion-2 {
+        background: url(../img/solucion.png) center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: center;
+        height: 787px;
+        padding-top: 20%;
+        .btn {
+            -webkit-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+            width: 131px;
+            background: transparent;
+            border-radius: 0;
+            border-color: #FFFFFF;
+            color: #FFFFFF;
+            font-size: 24px;
+        }
+        p {
+            font-size: 68px;
+            font-weight: 400;
+            color: white;
+        }
+    }
+}
+
+.soluciones .solucion-2 .btn:hover {
+    background: rgba(255, 255, 255, 0.8);
+    color: black;
+}
+
+.servicios {
+    img {
+        height: 207px;
+        width: 240px;
+        border-radius: 30px;
+    }
+    .txt-servicios {
+        background-color: #FF0000;
+        color: white;
+        text-align: center;
+        font-size: 40px;
+        margin-bottom: 0px;
+    }
+    .imagenes {
+        p {
+            color: white;
+            text-align: center;
+            padding-top: 40%;
+        }
+        .img-1 {
+            display: flex;
+            background: url(../img/servicio-1.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 207px;
+            width: 240px;
+            border-radius: 15px;
+            a {
+                color: white;
+                text-decoration: none!important;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+        .img-2 {
+            display: flex;
+            background: url(../img/servicio-2.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 207px;
+            width: 240px;
+            border-radius: 15px;
+            a {
+                color: white;
+                text-decoration: none!important;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+        .img-3 {
+            display: flex;
+            background: url(../img/servicio-3.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 207px;
+            width: 240px;
+            border-radius: 15px;
+            a {
+                color: white;
+                text-decoration: none!important;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+        .img-4 {
+            display: flex;
+            background: url(../img/servicio-4.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 207px;
+            width: 240px;
+            border-radius: 15px;
+            a {
+                color: white;
+                text-decoration: none!important;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+        .img-5 {
+            display: flex;
+            background: url(../img/servicio-5.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 207px;
+            width: 240px;
+            border-radius: 15px;
+            a {
+                color: white;
+                text-decoration: none!important;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+        .img-6 {
+            display: flex;
+            background: url(../img/servicio-6.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 207px;
+            width: 240px;
+            border-radius: 15px;
+            a {
+                color: white;
+                text-decoration: none!important;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+        .img-7 {
+            display: flex;
+            background: url(../img/servicio-7.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 207px;
+            width: 240px;
+            border-radius: 15px;
+            a {
+                color: white;
+                text-decoration: none!important;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+        .img-8 {
+            display: flex;
+            background: url(../img/servicio-8.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 207px;
+            width: 240px;
+            border-radius: 15px;
+            a {
+                color: white;
+                text-decoration: none!important;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+        .img-9 {
+            display: flex;
+            float: right;
+            background: url(../img/servicio-9.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 207px;
+            width: 240px;
+            border-radius: 15px;
+            a {
+                color: white;
+                text-decoration: none!important;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+        .img-10 {
+            display: flex;
+            background: url(../img/servicio-10.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 207px;
+            width: 240px;
+            border-radius: 15px;
+            a {
+                color: white;
+                text-decoration: none!important;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+    .txt-seguridad {
+        text-align: center;
+        font-weight: 600;
+        font-size: 25px;
+    }
+}
+
+// CONTACTANOS
+.contactanos {
+    .margen {
+        margin-top: 150px;
+    }
+    .txt-contactanos {
+        background-color: #FF0000;
+        color: white;
+        text-align: center;
+        font-size: 40px;
+        margin-bottom: 0px;
+    }
+    .formulario {
+        text-align: right;
+        font-size: 20px;
+        font-weight: 500;
+        .btn {
+            background-color: #B21F16;
+            border: #B21F16;
+            width: 80px;
+        }
+        .btn:hover {}
+        .txt-checkbox {
+            font-size: 15px;
+            color: rgb(0, 0, 0);
+            text-align: left;
+        }
+        .form-control {
+            border: 1px solid black;
+        }
+    }
+    .txt-comentarios {
+        font-size: 25px;
+    }
+}
