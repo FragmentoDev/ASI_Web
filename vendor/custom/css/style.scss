@@ -41,42 +41,10 @@
             padding-left: 10%;
         }
     }
-    .cont-inicio {
-        position: absolute;
-        top: 89px;
-        right: 242px;
-        color: white;
-        a {
-            color: white;
-            text-decoration: none;
-        }
-    }
-    .txt-siguenos {
-        position: absolute;
-        right: 52px;
-        font-weight: 600;
-    }
 }
 
 //soluciones
 .soluciones {
-    .cont-soluciones {
-        position: absolute;
-        bottom: -118px;
-        color: white;
-        top: 1193px;
-        z-index: 1;
-        left: 0px;
-        font-size: 58px;
-        background-color: #498A8D;
-        height: 82px;
-        width: 540px;
-        text-align: right;
-        font-weight: 700;
-        p {
-            margin: 0px;
-        }
-    }
     .txt-soluciones {
         p {
             background-color: #FF0000;
@@ -95,53 +63,49 @@
                 top: 50%;
                 width: 100%;
                 .owl-prev {
-                    background-color: transparent;
+                    background-color: #FF0000;
                     position: absolute;
                     left: 50px;
-                    color: black;
-                    font-size: 45px;
                 }
                 .owl-next {
-                    background-color: transparent;
+                    background-color: aqua;
                     position: absolute;
                     right: 50px;
-                    color: black;
-                    font-size: 45px;
                 }
             }
             .item-1 {
                 background-color: #FFFFFF;
                 background-size: cover;
                 background-repeat: no-repeat;
-                height: 787px;
+                height: 100vh;
             }
             .item-2 {
                 background-color: gray;
                 background-size: cover;
                 background-repeat: no-repeat;
-                height: 787px;
+                height: 100vh;
             }
             .item-3 {
                 background-color: wheat;
                 background-size: cover;
                 background-repeat: no-repeat;
-                height: 787px;
+                height: 100vh;
             }
             .item-4 {
                 background-color: burlywood;
                 background-size: cover;
                 background-repeat: no-repeat;
-                height: 787px;
+                height: 100vh;
             }
         }
     }
     .solucion-2 {
-        width: 800px!important;
-        height: 787px;
-        background-image: url(../img/solucion.png);
+        background: url(../img/solucion.png) center;
         background-size: cover;
         background-repeat: no-repeat;
         text-align: center;
+        height: 787px;
+        padding-top: 20%;
         .btn {
             -webkit-transition: all 0.3s ease-in-out;
             transition: all 0.3s ease-in-out;
@@ -384,11 +348,7 @@
             border: #B21F16;
             width: 80px;
         }
-        .btn:hover {
-            color: #B21F16;
-            background-color: white;
-            border: 1px solid #B21F16;
-        }
+        .btn:hover {}
         .txt-checkbox {
             font-size: 15px;
             color: rgb(0, 0, 0);
