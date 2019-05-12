@@ -35,13 +35,13 @@
                         <a data-scroll class="nav-link " href="#soluciones">Soluciones</a>
                     </li>
                     <li class="nav-item">
-                        <a data-scroll class="nav-link" href="#">Servicios</a>
+                        <a data-scroll class="nav-link" href="#servicios">Servicios</a>
                     </li>
                     <li class="nav-item">
-                        <a data-scroll class="nav-link" href="#">Empresa</a>
+                        <a data-scroll class="nav-link" href="#empresas">Empresa</a>
                     </li>
                     <li class="nav-item">
-                        <a data-scroll class="nav-link" href="#">Contacto</a>
+                        <a data-scroll class="nav-link" href="#contactanos">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -57,6 +57,11 @@
                 </div>
             </div>
         </div>
+        <div class="cont-inicio">
+            <p class="txt-siguenos">Síguenos</p>
+            <a href="#" class="fab fa-instagram pr-1 "></a>
+            <a href="#" class="fab fa-facebook "></a>
+        </div>
     </section>
 
     <!-- SOLUCIONES -->
@@ -64,23 +69,33 @@
         <div class="txt-soluciones">
             <p>Soluciones</p>
         </div>
-        <div class="row">
-            <div class="col-6 pr-0">
-                <div class="solucion">
-                    <div class="owl-carousel  owl-theme ">
-                        <div class="item-1"></div>
-                        <div class="item-2"></div>
-                        <div class="item-3"></div>
-                        <div class="item-4"></div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 pl-0 pr-0">
+                    <div class="solucion">
+                        <div class="owl-carousel  owl-theme ">
+                            <div class="item-1"></div>
+                            <div class="item-2"></div>
+                            <div class="item-3"></div>
+                            <div class="item-4"></div>
+                        </div>
                     </div>
                 </div>
+                <div class="col-lg-6 col-md-12 pl-0 pr-0 solucion-2 d-flex flex-column justify-content-center align-items-center">
+                    <div>
+                        <p>Solución</p>
+                        <a data-toggle="modal" data-target="#modalMirna" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+                <div class="cont-soluciones">
+                    <p class="pr-3">Problema</p>
+                </div>
+
             </div>
-            <div class="col solucion-2">
-                <p>Solución</p>
-                <a data-toggle="modal" data-target="#modalMirna" class="btn btn-primary">Ver más</a>
-            </div>
-        </div>
+
     </section>
+
     <!-- SERVICIOS -->
     <section class="servicios" id="servicios">
         <div class="txt-servicios">
@@ -198,7 +213,7 @@
                     <div class="form-group row ">
                         <p for="form_message " class="col-sm-2 ">Mensaje</p>
                         <div class="col-sm-10 ">
-                            <textarea class="form-control " rows="3 " required="required "></textarea>
+                            <textarea class="form-control " rows="3"></textarea>
                             <div class="form-group txt-checkbox">
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" id="gridCheck">
@@ -209,7 +224,7 @@
                             </div>
                             <div class="form-contacto form-check ">
                                 <div class="back-checkbox ">
-                                    <button type="submit " class="btn btn-primary btn-send mt-2 " value="Enviar ">Enviar</button>
+                                    <button type="submit " class="btn btn-primary btn-send  " value="Enviar ">Enviar</button>
                                 </div>
                             </div>
                         </div>
@@ -223,7 +238,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row mt-5">
                 <div class="col pt-3" style="font-size:10px;">
                     <p>Asi Automatización y servicios de ingeniería (Servicios integrales) 2018</p>
                 </div>
@@ -236,6 +251,7 @@
 
 
 
+
     <!-- JS -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -244,12 +260,15 @@
     <script>
         new WOW().init();
         $('.owl-carousel').owlCarousel({
+
             nav: true,
             loop: true,
             dots: false,
             autoplay: true,
             autoplayTimeout: 3000,
-            items: 1
+            items: 1,
+            navText: ["<i class='fas fa-angle-left'></i>", "<i class='fas fa-angle-right'></i>"]
+
 
         });
     </script>
