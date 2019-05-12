@@ -48,7 +48,34 @@
       height: 84px;
       width: 100%;
       padding-left: 10%; }
+  .inicio .cont-inicio {
+    position: absolute;
+    top: 89px;
+    right: 242px;
+    color: white; }
+    .inicio .cont-inicio a {
+      color: white;
+      text-decoration: none; }
+  .inicio .txt-siguenos {
+    position: absolute;
+    right: 52px;
+    font-weight: 600; }
 
+.soluciones .cont-soluciones {
+  position: absolute;
+  bottom: -118px;
+  color: white;
+  top: 1193px;
+  z-index: 1;
+  left: 0px;
+  font-size: 58px;
+  background-color: #498A8D;
+  height: 82px;
+  width: 540px;
+  text-align: right;
+  font-weight: 700; }
+  .soluciones .cont-soluciones p {
+    margin: 0px; }
 .soluciones .txt-soluciones p {
   background-color: #FF0000;
   color: white;
@@ -63,40 +90,44 @@
     top: 50%;
     width: 100%; }
     .soluciones .solucion .owl-carousel .owl-nav .owl-prev {
-      background-color: #FF0000;
+      background-color: transparent;
       position: absolute;
-      left: 50px; }
+      left: 50px;
+      color: black;
+      font-size: 45px; }
     .soluciones .solucion .owl-carousel .owl-nav .owl-next {
-      background-color: aqua;
+      background-color: transparent;
       position: absolute;
-      right: 50px; }
+      right: 50px;
+      color: black;
+      font-size: 45px; }
   .soluciones .solucion .owl-carousel .item-1 {
     background-color: #FFFFFF;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh; }
+    height: 787px; }
   .soluciones .solucion .owl-carousel .item-2 {
     background-color: gray;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh; }
+    height: 787px; }
   .soluciones .solucion .owl-carousel .item-3 {
     background-color: wheat;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh; }
+    height: 787px; }
   .soluciones .solucion .owl-carousel .item-4 {
     background-color: burlywood;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh; }
+    height: 787px; }
 .soluciones .solucion-2 {
-  background: url(../img/solucion.png) center;
+  width: 800px !important;
+  height: 787px;
+  background-image: url(../img/solucion.png);
   background-size: cover;
   background-repeat: no-repeat;
-  text-align: center;
-  height: 787px;
-  padding-top: 20%; }
+  text-align: center; }
   .soluciones .solucion-2 .btn {
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
@@ -381,6 +412,10 @@
     background-color: #B21F16;
     border: #B21F16;
     width: 80px; }
+  .contactanos .formulario .btn:hover {
+    color: #B21F16;
+    background-color: white;
+    border: 1px solid #B21F16; }
   .contactanos .formulario .txt-checkbox {
     font-size: 15px;
     color: black;
