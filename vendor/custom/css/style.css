@@ -659,7 +659,7 @@ body {
   border-left-style: none;
   border-left-width: medium;
   border-left: 1px solid #73848c;
-  height: 100%;
+  height: 69%;
   position: absolute;
   margin-left: -69px;
   top: -6px;
@@ -668,16 +668,6 @@ body {
 .servicios-empresa .columna-2-empresa .txt-servi-col2 p {
   margin: 0%;
   text-align: right; }
-.servicios-empresa .fila-historia .btn {
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  width: 104px;
-  background: transparent;
-  border-radius: 0;
-  border-color: black;
-  color: black;
-  font-size: 15px;
-  height: 41px; }
 .servicios-empresa .fila-historia .column-2 {
   height: 104px;
   display: -webkit-box;
@@ -697,18 +687,32 @@ body {
   .columna-2-empresa .img-respon-empresa {
     width: 80%;
     height: 348px;
-    margin-top: 32px; } }
+    margin-top: 32px; }
+
+  .servicios-empresa .linea-vertical {
+    height: 100%; } }
 @media (max-width: 888px) {
   .servicios-empresa .cont-servicios {
-    text-align: center; }
-    .servicios-empresa .cont-servicios .linea-vertical {
-      margin-left: 36px; } }
-@media (max-width: 767px) {
+    text-align: center; } }
+@media (max-width: 575px) {
+  .servicios-empresa .cont-servicios .esp {
+    padding-top: 10px !important; }
+
   .servicios-empresa .cont-servicios .linea-vertical {
-    margin-left: 0px; } }
+    display: none; } }
 @media (max-width: 438px) {
   .servicios-empresa .cont-servicios .linea-vertical {
     display: none; } }
+@media (max-width: 430px) {
+  .servicios-empresa .cont-servicios {
+    font-size: 13px; }
+    .servicios-empresa .cont-servicios .esp {
+      padding-top: 10px !important; }
+
+  .servicios-empresa .fila-historia {
+    padding: 0%; }
+    .servicios-empresa .fila-historia p {
+      font-size: 13px; } }
 @media (max-width: 991px) {
   .navbar .nav-item {
     height: 45px; }
@@ -764,7 +768,7 @@ body {
       color: white;
       position: relative;
       right: 57px;
-      top: 44px; }
+      top: 85px; }
       .inicio-servicios .item-1 .txt-col-2 p {
         font-size: 12px;
         padding: 20px; }
@@ -790,14 +794,8 @@ body {
         color: black; }
       .inicio-servicios .item-1 .txt-col-2 .psn-btn-1 {
         position: absolute;
-        right: 125px;
-        bottom: -154px; }
-      .inicio-servicios .item-1 .txt-col-2 .psn-btn-2 {
-        position: absolute;
-        right: 0px;
-        bottom: -154px; }
-        .inicio-servicios .item-1 .txt-col-2 .psn-btn-2 a {
-          width: 105px; }
+        right: 20px;
+        bottom: -100px; }
       .inicio-servicios .item-1 .txt-col-2 .fila .rojo .cont-inicio-rojo {
         border: none;
         height: 164px;
@@ -844,13 +842,22 @@ body {
     right: 360px;
     bottom: -68px; }
 
-  .inicio-servicios .item-1 .txt-col-2 .psn-btn-2 {
-    position: absolute;
-    right: 230px;
-    bottom: -68px; }
+  .inicio-servicios .item-1 .txt-col-2 {
+    height: 221px; }
+
+  .inicio-servicios .item-1 .col-img-inicio .img-inicio {
+    height: 227px;
+    width: 278px; }
+
+  .inicio-servicios .item-1 .txt-col-2 .img-col-2 {
+    padding: 0% !important; }
 
   .inicio-servicios .item-1 .txt-col-2 {
-    height: 221px; } }
+    top: 42px; }
+
+  .inicio-servicios .item-1 .txt-col-2 .psn-btn-1 {
+    right: 320px;
+    bottom: -41px; } }
 @media (max-width: 653px) {
   .inicio-servicios .item-1 .txt-col-2 p {
     padding: 23px 0px 0px 0px; }
@@ -867,13 +874,8 @@ body {
 @media (max-width: 767px) {
   .inicio-servicios .item-1 .txt-col-2 .psn-btn-1 {
     position: absolute;
-    right: 278px;
-    bottom: -68px; }
-
-  .inicio-servicios .item-1 .txt-col-2 .psn-btn-2 {
-    position: absolute;
-    right: 151px;
-    bottom: -68px; }
+    right: 228px;
+    bottom: -41px; }
 
   .inicio-servicios .item-1 .col-img-inicio p {
     left: 117px; }
@@ -889,24 +891,12 @@ body {
     right: 0px; }
 
   .inicio-servicios .item-1 .txt-col-2 .psn-btn-1 {
-    position: absolute;
-    right: 278px;
-    bottom: -68px; }
-
-  .inicio-servicios .item-1 .txt-col-2 .psn-btn-2 {
-    position: absolute;
-    right: 151px;
-    bottom: -68px; } }
+    right: 229px;
+    bottom: -41px; } }
 @media (max-width: 575px) {
   .inicio-servicios .item-1 .txt-col-2 .psn-btn-1 {
-    position: absolute;
-    right: 178px;
-    bottom: -68px; }
-
-  .inicio-servicios .item-1 .txt-col-2 .psn-btn-2 {
-    position: absolute;
-    right: 50px;
-    bottom: -68px; } }
+    right: 42px;
+    bottom: -41px; } }
 @media (max-width: 450px) {
   .inicio-servicios .item-1 .col-img-inicio p {
     left: 77px; } }
