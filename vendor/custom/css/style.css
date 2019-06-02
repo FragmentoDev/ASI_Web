@@ -647,7 +647,8 @@ body {
   .inicio-empresa .owl-carousel .owl-dots {
     left: 7px; } }
 .inicio-servicios {
-  z-index: 1; }
+  z-index: 1;
+  margin-top: 68px; }
   .inicio-servicios .item-1 {
     background: url("../img/servicios.png") center;
     background-size: cover;

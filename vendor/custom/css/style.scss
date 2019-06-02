@@ -452,7 +452,7 @@ body {
                 color: black!important;
                 padding-left: 18px;
             }
-            .owl-dot.active p{
+            .owl-dot.active p {
                 border-bottom: 2px solid #000;
             }
         }
@@ -693,6 +693,7 @@ body {
 //INICIO
 .inicio-servicios {
     z-index: 1;
+    margin-top: 68px;
     .item-1 {
         background: url("../img/servicios.png") center;
         background-size: cover;
