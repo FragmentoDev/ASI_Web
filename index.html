@@ -13,8 +13,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link href="vendor/custom/owl-carousel/owl.carousel.css" rel="stylesheet">
     <link href="vendor/custom/owl-carousel/owl.theme.default.css" rel="stylesheet">
     <link href="vendor/custom/css/animate.css" rel="stylesheet">
@@ -27,7 +26,7 @@
             speed: 300,
             easing: 'easeInOutCubiuc',
             offset: 0,
-            callback: function (anchor, toggle) { }
+            callback: function(anchor, toggle) {}
         });
     </script>
 </head>
@@ -40,8 +39,7 @@
             <a class="navbar-brand" href="#">
                 <img src="./vendor/custom/img/logo.png" alt="" class="img-fluid" width="120">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -84,28 +82,46 @@
         <div class="txt-soluciones">
             <p>Soluciones</p>
         </div>
+
         <div class="container-fluid">
-            <div class="owl-carousel owl-theme">
-                <div class="item">
-                    <div class="row">
-                        <div class="col-sm-6">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 pl-0 pr-0">
+                    <div class="solucion">
+                        <div class="owl-carousel  owl-theme " onclick="ShowHideElement">
+                            <div class="item-1">
+                                <div class="container d-flex flex-column justify-content-center align-items-center" style="height: 100%;">
+                                    <div class="row">
+                                        <div class="col txt-problema-1 ">
+                                            <p>con tu carpeta<br> asfáltica dañada?</p>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="item-2"></div>
+                            <div class="item-3"></div>
+                            <div class="item-4"></div>
 
                         </div>
-                        <div class="col-sm-6">
+                        <!-- <div class="cont-soluciones ">
+                        <p class="pr-3">Problema</p>
 
-                        </div>
+                    </div> -->
+
                     </div>
                 </div>
-                <div class="item">
-                    <div class="row">
-                        <div class="col-sm-6">
-
-                        </div>
-                        <div class="col-sm-6">
-
+                <!-- <div class="col-lg-6 col-md-12 pl-0 pr-0 solucion-2 d-flex flex-column justify-content-center align-items-center">
+                    <div class="txt-solucion">
+                        <h1>Solución</h1>
+                        <div class="cont-solucion" id="texto-solucion-1">
+                            <p>texto prueba js
+                            </p>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -132,8 +148,7 @@
                 </div>
                 <div class="col img-res-1 pt-5">
                     <div class="img-3">
-                        <a href="#"><b>Construcción y <br> mantenimiento <br> de plantas <br> tratadoras de <br>aguas
-                                residuales.</a></b>
+                        <a href="#"><b>Construcción y <br> mantenimiento <br> de plantas <br> tratadoras de <br>aguas residuales.</a></b>
 
                     </div>
 
@@ -194,8 +209,7 @@
                     </p>
                 </div>
                 <div class="col pt-2">
-                    <p class="texto">Nuestro principal objetivo es el entregar un servicio de excelencia,<br> que nos
-                        permita satisfacer los requerimientos de nuestros clientes.</p>
+                    <p class="texto">Nuestro principal objetivo es el entregar un servicio de excelencia,<br> que nos permita satisfacer los requerimientos de nuestros clientes.</p>
                     </b>
                 </div>
             </div>
@@ -237,8 +251,7 @@
                             </div>
                             <div class="form-contacto form-check ">
                                 <div class="back-checkbox ">
-                                    <button type="submit " class="btn btn-primary btn-send  "
-                                        value="Enviar ">Enviar</button>
+                                    <button type="submit " class="btn btn-primary btn-send  " value="Enviar ">Enviar</button>
                                 </div>
                             </div>
                         </div>
@@ -276,13 +289,36 @@
     <script>
         new WOW().init();
         $('.owl-carousel').owlCarousel({
+
+            nav: true,
             loop: true,
             dots: false,
             autoplay: false,
             autoplayTimeout: 3000,
             items: 1,
             navText: ["<i class='fas fa-angle-left'></i>", "<i class='fas fa-angle-right'></i>"]
+
+
+
+
         });
+        $(".cont-solucion").hide();
+
+        function showHideElement() {
+
+            let text = "";
+
+            if ($("#texto-solucion-1").text() == "texto prueba js") {
+                $(".cont-solucion").show();
+                text = "nuvo texto";
+
+            } else {
+                $("cont-solucion").show();
+                $(".cont-solucion-1").hide();
+                text = "show form";
+            }
+            $("#texto-solucion-1").html(text);
+        }
     </script>
 
 
