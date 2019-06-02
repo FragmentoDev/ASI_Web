@@ -71,108 +71,6 @@ body {
   text-align: center;
   font-size: 40px;
   margin-bottom: 0px; }
-.soluciones .solucion {
-  width: 100%;
-  height: 787px; }
-  .soluciones .solucion .carousel {
-    width: 100%;
-    height: 787px; }
-    .soluciones .solucion .carousel .carousel-inner .carousel-item {
-      width: 100%;
-      height: 787px;
-      background-color: #707070;
-      background-size: cover;
-      background-repeat: no-repeat;
-      height: 787px; }
-      .soluciones .solucion .carousel .carousel-inner .carousel-item p {
-        position: absolute;
-        top: 1px;
-        z-index: 1; }
-  .soluciones .solucion .cont-soluciones {
-    position: absolute;
-    top: 266px;
-    color: white;
-    z-index: 1;
-    font-size: 58px;
-    background-color: #498A8D;
-    height: 82px;
-    width: 540px;
-    text-align: right;
-    font-weight: 700; }
-    .soluciones .solucion .cont-soluciones p {
-      margin: 0px; }
-  .soluciones .solucion .owl-carousel .owl-nav {
-    position: absolute;
-    top: 50%;
-    width: 100%; }
-    .soluciones .solucion .owl-carousel .owl-nav .owl-prev {
-      background-color: transparent;
-      position: absolute;
-      left: 50px;
-      color: black;
-      font-size: 45px; }
-    .soluciones .solucion .owl-carousel .owl-nav .owl-next {
-      background-color: transparent;
-      position: absolute;
-      right: 50px;
-      color: black;
-      font-size: 45px; }
-  .soluciones .solucion .owl-carousel .item-1 {
-    background-color: #FFFFFF;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 787px; }
-    .soluciones .solucion .owl-carousel .item-1 .txt-problema-1 {
-      height: 100%;
-      color: #000000;
-      padding-top: 21px; }
-      .soluciones .solucion .owl-carousel .item-1 .txt-problema-1 p {
-        font-size: 36px;
-        font-weight: 500; }
-  .soluciones .solucion .owl-carousel .item-2 {
-    background-color: gray;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 787px; }
-  .soluciones .solucion .owl-carousel .item-3 {
-    background-color: wheat;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 787px; }
-  .soluciones .solucion .owl-carousel .item-4 {
-    background-color: burlywood;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 787px; }
-.soluciones .solucion-2 {
-  width: 800px !important;
-  height: 787px;
-  background-image: url(../img/solucion.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  text-align: center; }
-  .soluciones .solucion-2 .txt-solucion h1 {
-    font-size: 68px;
-    font-weight: 400;
-    color: white; }
-  .soluciones .solucion-2 .txt-solucion p {
-    font-size: 68px;
-    font-weight: 400;
-    color: white;
-    font-size: 15px; }
-  .soluciones .solucion-2 .btn {
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    width: 131px;
-    background: transparent;
-    border-radius: 0;
-    border-color: #FFFFFF;
-    color: #FFFFFF;
-    font-size: 24px; }
-
-.soluciones .solucion-2 .btn:hover {
-  background: rgba(255, 255, 255, 0.8);
-  color: black; }
 
 .servicios img {
   height: 207px;
@@ -555,6 +453,8 @@ body {
       margin-bottom: 0rem;
       color: black !important;
       padding-left: 18px; }
+    .inicio-empresa .owl-carousel .owl-dots .owl-dot.active p {
+      border-bottom: 2px solid #000; }
   .inicio-empresa .owl-carousel .owl-nav {
     position: absolute;
     top: 43%;
