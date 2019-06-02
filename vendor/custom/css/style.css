@@ -654,6 +654,20 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh; }
+    .inicio-servicios .item-1 .psn-btn-1 {
+      position: relative;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-box-pack: end;
+          -ms-flex-pack: end;
+              justify-content: end;
+      right: 20px;
+      margin-top: 50px; }
     .inicio-servicios .item-1 .col-img-inicio {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -707,10 +721,6 @@ body {
       .inicio-servicios .item-1 .txt-col-2 .btn:hover {
         background: white;
         color: black; }
-      .inicio-servicios .item-1 .txt-col-2 .psn-btn-1 {
-        position: absolute;
-        right: 20px;
-        bottom: -100px; }
       .inicio-servicios .item-1 .txt-col-2 .fila .rojo .cont-inicio-rojo {
         border: none;
         height: 164px;

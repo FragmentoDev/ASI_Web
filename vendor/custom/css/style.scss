@@ -699,6 +699,15 @@ body {
         background-size: cover;
         background-repeat: no-repeat;
         height: 100vh;
+        .psn-btn-1 {
+            // position: absolute;
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            justify-content: end;
+            right: 20px;
+            margin-top: 50px;
+        }
         .col-img-inicio {
             display: flex;
             justify-content: center;
@@ -754,11 +763,6 @@ body {
             .btn:hover {
                 background: white;
                 color: black;
-            }
-            .psn-btn-1 {
-                position: absolute;
-                right: 20px;
-                bottom: -100px;
             }
             .fila {
                 .rojo {
