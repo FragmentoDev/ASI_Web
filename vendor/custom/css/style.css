@@ -71,6 +71,63 @@ body {
   text-align: center;
   font-size: 40px;
   margin-bottom: 0px; }
+.soluciones .solucion {
+  width: 100%;
+  height: 787px; }
+  .soluciones .solucion .owl-carousel .owl-nav {
+    position: absolute;
+    top: 43%;
+    width: 100%; }
+    .soluciones .solucion .owl-carousel .owl-nav .owl-prev {
+      background-color: transparent;
+      position: absolute;
+      left: 50px;
+      color: black;
+      font-size: 45px; }
+    .soluciones .solucion .owl-carousel .owl-nav .owl-next {
+      background-color: transparent;
+      position: absolute;
+      right: 50px;
+      color: black;
+      font-size: 45px; }
+  .soluciones .solucion .owl-carousel .item-1 {
+    background-color: #FFFFFF;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; }
+  .soluciones .solucion .owl-carousel .item-2 {
+    background-color: gray;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; }
+  .soluciones .solucion .owl-carousel .item-3 {
+    background-color: wheat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; }
+  .soluciones .solucion .owl-carousel .item-4 {
+    background-color: burlywood;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; }
+.soluciones .solucion-2 {
+  background: url(../img/solucion.png) center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 787px; }
+  .soluciones .solucion-2 .txt-solucion h1 {
+    font-size: 68px;
+    font-weight: 400;
+    color: white; }
+  .soluciones .solucion-2 .txt-solucion p {
+    font-size: 16px;
+    font-weight: 400;
+    color: white; }
+
+.soluciones .solucion-2 .btn:hover {
+  background: rgba(255, 255, 255, 0.8);
+  color: black; }
 
 .servicios img {
   height: 207px;

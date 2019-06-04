@@ -87,44 +87,34 @@
             <div class="row">
                 <div class="col-lg-6 col-md-12 pl-0 pr-0">
                     <div class="solucion">
-                        <div class="owl-carousel  owl-theme " onclick="ShowHideElement">
-                            <div class="item-1">
-                                <div class="container d-flex flex-column justify-content-center align-items-center" style="height: 100%;">
-                                    <div class="row">
-                                        <div class="col txt-problema-1 ">
-                                            <p>con tu carpeta<br> asfáltica dañada?</p>
-
-                                        </div>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
+                        <div class="owl-carousel owl-theme ">
+                            <div class="item-1"></div>
                             <div class="item-2"></div>
                             <div class="item-3"></div>
                             <div class="item-4"></div>
-
                         </div>
-                        <!-- <div class="cont-soluciones ">
-                        <p class="pr-3">Problema</p>
-
-                    </div> -->
-
+                        <div class="d-flex flex-column justify-content-center align-items-center" style="height: 100%;">
+                            <div class="cont-soluciones">
+                                <p class="pr-3">Problema</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <!-- <div class="col-lg-6 col-md-12 pl-0 pr-0 solucion-2 d-flex flex-column justify-content-center align-items-center">
-                    <div class="txt-solucion">
-                        <h1>Solución</h1>
-                        <div class="cont-solucion" id="texto-solucion-1">
-                            <p>texto prueba js
-                            </p>
+                <div class="solucion-2 col-lg-6 col-md-12  d-flex flex-column justify-content-center align-items-center">
+                    <div class="container">
+                        <div class="txt-solucion">
+                            <h1>Solución</h1>
+                            <p id="texto">cambiar texto</p>
                         </div>
                     </div>
-                </div> -->
+                </div>
             </div>
         </div>
     </section>
+
+
+
+
 
     <!-- SERVICIOS -->
     <section class="servicios" id="servicios">
@@ -212,6 +202,7 @@
                     <p class="texto">Nuestro principal objetivo es el entregar un servicio de excelencia,<br> que nos permita satisfacer los requerimientos de nuestros clientes.</p>
                     </b>
                 </div>
+
             </div>
         </div>
     </section>
@@ -302,27 +293,26 @@
 
 
         });
-        $(".cont-solucion").hide();
-
-        function showHideElement() {
-
-            let text = "";
-
-            if ($("#texto-solucion-1").text() == "texto prueba js") {
-                $(".cont-solucion").show();
-                text = "nuvo texto";
-
+        var Array = ["hola mundo", "hola mundo2", "hola mundo 3"];
+        var num = 0;
+        $('.owl-next').click(function() {
+            if (num < Array.length - 1) {
+                num++;
             } else {
-                $("cont-solucion").show();
-                $(".cont-solucion-1").hide();
-                text = "show form";
+                num = 0;
             }
-            $("#texto-solucion-1").html(text);
-        }
+            document.getElementById("texto").innerHTML = Array[num];
+        })
+
+        $('.owl-prev').click(function() {
+            if (num > 0) {
+                num--;
+            } else {
+                num = Array.length - 1;
+            }
+            document.getElementById("texto").innerHTML = Array[num];
+        })
     </script>
-
-
-
 </body>
 
 </html>
