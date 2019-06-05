@@ -75,7 +75,6 @@ body {
         }
     }
     .solucion {
-        width: 100%;
         height: 787px;
         .owl-carousel {
             .owl-nav {
@@ -85,60 +84,83 @@ body {
                 .owl-prev {
                     background-color: transparent;
                     position: absolute;
-                    left: 50px;
+                    left: -100%;
                     color: black;
                     font-size: 45px;
                 }
                 .owl-next {
                     background-color: transparent;
                     position: absolute;
-                    right: 50px;
+                    left: -99px;
                     color: black;
                     font-size: 45px;
                 }
             }
             .item-1 {
-                background-color: #FFFFFF;
+                background: url(../img/solucion.png);
                 background-size: cover;
                 background-repeat: no-repeat;
-                height: 100vh;
+                height: 787px;
             }
             .item-2 {
                 background-color: gray;
                 background-size: cover;
                 background-repeat: no-repeat;
-                height: 100vh;
+                height: 787px;
             }
             .item-3 {
                 background-color: wheat;
                 background-size: cover;
                 background-repeat: no-repeat;
-                height: 100vh;
+                height: 787px;
             }
             .item-4 {
                 background-color: burlywood;
                 background-size: cover;
                 background-repeat: no-repeat;
-                height: 100vh;
+                height: 787px;
             }
         }
     }
     .solucion-2 {
-        background: url(../img/solucion.png) center;
+        background-color: white;
         background-size: cover;
         background-repeat: no-repeat;
         text-align: center;
         height: 787px;
-        .txt-solucion {
-            h1 {
-                font-size: 68px;
-                font-weight: 400;
+        width: 100%;
+        .cont-soluciones {
+            p {
+                font-size: 50px;
+                background-color: #498A8D;
+                height: 77px;
+                width: 520px;
+                text-align: right;
+                position: absolute;
+                left: 0;
+                top: 29%;
                 color: white;
+                font-weight: 700;
+            }
+        }
+        .text-carousel {
+            #texto {
+                p {
+                    position: absolute;
+                    top: 317px;
+                    font-size: 31px;
+                    font-weight: 600;
+                    color: black;
+                    left: 36%;
+                }
             }
             p {
-                font-size: 16px;
-                font-weight: 400;
-                color: white;
+                position: absolute;
+                top: 317px;
+                font-size: 31px;
+                font-weight: 600;
+                color: black;
+                left: 36%;
             }
         }
     }
@@ -388,24 +410,6 @@ body {
 }
 
 // RESPONSIVE---------INDEX
-@media (max-width: 1500px) {
-    .soluciones .solucion .cont-soluciones {
-        width: 535px;
-    }
-}
-
-@media (max-width: 1415px) {
-    .soluciones .solucion .cont-soluciones {
-        width: 499px;
-    }
-}
-
-@media (max-width: 1292px) {
-    .soluciones .solucion .cont-soluciones {
-        width: 465PX;
-    }
-}
-
 @media (max-width: 1199px) {
     .servicios .imagenes .img-9 {
         float: left;
@@ -414,12 +418,6 @@ body {
         display: flex;
         align-content: center;
         justify-content: center;
-    }
-}
-
-@media (max-width: 1102px) {
-    .soluciones .cont-soluciones {
-        width: 365PX;
     }
 }
 
@@ -439,9 +437,6 @@ body {
         top: 57px;
         right: 139px;
     }
-    .soluciones .cont-soluciones {
-        width: 627px;
-    }
     .servicios .imagenes .respon {
         display: flex;
         align-content: left;
@@ -456,21 +451,9 @@ body {
     }
 }
 
-@media (max-width: 711px) {
-    .soluciones .cont-soluciones {
-        width: 481px;
-    }
-}
-
 @media (max-width: 575px) {
     .contactanos .formulario {
         text-align: left;
-    }
-}
-
-@media (max-width: 545px) {
-    .soluciones .cont-soluciones {
-        width: 382px;
     }
 }
 
@@ -499,13 +482,6 @@ body {
     .inicio .item-1 .tit-inicio {
         font-size: 20px;
         height: 66px;
-    }
-    .soluciones .cont-soluciones {
-        width: 292px;
-        height: 74px;
-        p {
-            font-size: 48px;
-        }
     }
 }
 

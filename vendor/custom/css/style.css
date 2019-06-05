@@ -72,7 +72,6 @@ body {
   font-size: 40px;
   margin-bottom: 0px; }
 .soluciones .solucion {
-  width: 100%;
   height: 787px; }
   .soluciones .solucion .owl-carousel .owl-nav {
     position: absolute;
@@ -81,49 +80,67 @@ body {
     .soluciones .solucion .owl-carousel .owl-nav .owl-prev {
       background-color: transparent;
       position: absolute;
-      left: 50px;
+      left: -100%;
       color: black;
       font-size: 45px; }
     .soluciones .solucion .owl-carousel .owl-nav .owl-next {
       background-color: transparent;
       position: absolute;
-      right: 50px;
+      left: -99px;
       color: black;
       font-size: 45px; }
   .soluciones .solucion .owl-carousel .item-1 {
-    background-color: #FFFFFF;
+    background: url(../img/solucion.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh; }
+    height: 787px; }
   .soluciones .solucion .owl-carousel .item-2 {
     background-color: gray;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh; }
+    height: 787px; }
   .soluciones .solucion .owl-carousel .item-3 {
     background-color: wheat;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh; }
+    height: 787px; }
   .soluciones .solucion .owl-carousel .item-4 {
     background-color: burlywood;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh; }
+    height: 787px; }
 .soluciones .solucion-2 {
-  background: url(../img/solucion.png) center;
+  background-color: white;
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
-  height: 787px; }
-  .soluciones .solucion-2 .txt-solucion h1 {
-    font-size: 68px;
-    font-weight: 400;
-    color: white; }
-  .soluciones .solucion-2 .txt-solucion p {
-    font-size: 16px;
-    font-weight: 400;
-    color: white; }
+  height: 787px;
+  width: 100%; }
+  .soluciones .solucion-2 .cont-soluciones p {
+    font-size: 50px;
+    background-color: #498A8D;
+    height: 77px;
+    width: 520px;
+    text-align: right;
+    position: absolute;
+    left: 0;
+    top: 29%;
+    color: white;
+    font-weight: 700; }
+  .soluciones .solucion-2 .text-carousel #texto p {
+    position: absolute;
+    top: 317px;
+    font-size: 31px;
+    font-weight: 600;
+    color: black;
+    left: 36%; }
+  .soluciones .solucion-2 .text-carousel p {
+    position: absolute;
+    top: 317px;
+    font-size: 31px;
+    font-weight: 600;
+    color: black;
+    left: 36%; }
 
 .soluciones .solucion-2 .btn:hover {
   background: rgba(255, 255, 255, 0.8);
@@ -408,15 +425,6 @@ body {
 .contactanos .txt-comentarios {
   font-size: 25px; }
 
-@media (max-width: 1500px) {
-  .soluciones .solucion .cont-soluciones {
-    width: 535px; } }
-@media (max-width: 1415px) {
-  .soluciones .solucion .cont-soluciones {
-    width: 499px; } }
-@media (max-width: 1292px) {
-  .soluciones .solucion .cont-soluciones {
-    width: 465PX; } }
 @media (max-width: 1199px) {
   .servicios .imagenes .img-9 {
     float: left; }
@@ -430,9 +438,6 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center; } }
-@media (max-width: 1102px) {
-  .soluciones .cont-soluciones {
-    width: 365PX; } }
 @media (max-width: 1234px) {
   .inicio .item-1 .tit-inicio {
     font-size: 35px;
@@ -445,9 +450,6 @@ body {
     position: absolute;
     top: 57px;
     right: 139px; }
-
-  .soluciones .cont-soluciones {
-    width: 627px; }
 
   .servicios .imagenes .respon {
     display: -webkit-box;
@@ -462,15 +464,9 @@ body {
   .inicio .item-1 .tit-inicio {
     font-size: 26px;
     height: 48px; } }
-@media (max-width: 711px) {
-  .soluciones .cont-soluciones {
-    width: 481px; } }
 @media (max-width: 575px) {
   .contactanos .formulario {
     text-align: left; } }
-@media (max-width: 545px) {
-  .soluciones .cont-soluciones {
-    width: 382px; } }
 @media (max-width: 541px) {
   .inicio .item-1 .tit-inicio {
     font-size: 19px;
@@ -491,13 +487,7 @@ body {
 @media (max-width: 375px) {
   .inicio .item-1 .tit-inicio {
     font-size: 20px;
-    height: 66px; }
-
-  .soluciones .cont-soluciones {
-    width: 292px;
-    height: 74px; }
-    .soluciones .cont-soluciones p {
-      font-size: 48px; } }
+    height: 66px; } }
 .inicio-empresa .owl-carousel {
   height: 100%; }
   .inicio-empresa .owl-carousel .owl-dots {
