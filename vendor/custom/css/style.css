@@ -93,13 +93,17 @@ body {
       position: absolute;
       left: -100%;
       color: black;
-      font-size: 45px; }
+      font-size: 45px;
+      height: 431px !important;
+      width: 93px !important; }
     .soluciones .solucion .owl-carousel .owl-nav .owl-next {
       background-color: transparent;
       position: absolute;
       left: -99px;
       color: black;
-      font-size: 45px; }
+      font-size: 45px;
+      height: 431px !important;
+      width: 93px !important; }
   .soluciones .solucion .owl-carousel .item-1 {
     background: url(../img/solucion.png);
     background-size: cover;
@@ -480,14 +484,22 @@ body {
 
   .soluciones .solucion .owl-carousel .owl-nav .owl-next {
     top: -825px;
-    left: 93%; }
+    left: 90%; }
 
   .soluciones .solucion .owl-carousel .owl-nav .owl-prev {
     top: -825px;
     left: 3%; }
 
   .soluciones .solucion .text-solucion p {
-    left: 182px; } }
+    left: 182px; }
+
+  .soluciones .solucion .owl-carousel .owl-nav .owl-next {
+    height: 1256px !important;
+    width: 100px !important; }
+
+  .soluciones .solucion .owl-carousel .owl-nav .owl-prev {
+    height: 1256px !important;
+    width: 100px !important; } }
 @media (max-width: 1234px) {
   .inicio .item-1 .tit-inicio {
     font-size: 35px;
@@ -526,6 +538,14 @@ body {
   .inicio .item-1 .tit-inicio {
     font-size: 26px;
     height: 48px; } }
+@media (max-width: 768px) {
+  .soluciones .solucion .owl-carousel .owl-nav .owl-next {
+    top: -825px;
+    left: 85%;
+    color: white; }
+
+  .soluciones .solucion .owl-carousel .owl-nav .owl-prev {
+    color: white; } }
 @media (max-width: 669px) {
   .soluciones .solucion-2 .cont-soluciones p {
     width: 466px; } }
@@ -541,6 +561,10 @@ body {
 @media (max-width: 549px) {
   .soluciones .solucion-2 .cont-soluciones p {
     width: 417px; } }
+@media (max-width: 549px) {
+  .soluciones .solucion .owl-carousel .owl-nav .owl-prev {
+    top: -825px;
+    left: -4%; } }
 @media (max-width: 541px) {
   .inicio .item-1 .tit-inicio {
     font-size: 19px;

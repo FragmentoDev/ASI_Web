@@ -101,6 +101,8 @@
                         left: -100%;
                         color: black;
                         font-size: 45px;
+                        height: 431px !important;
+                        width: 93px !important;
                     }
                     .owl-next {
                         background-color: transparent;
@@ -108,6 +110,8 @@
                         left: -99px;
                         color: black;
                         font-size: 45px;
+                        height: 431px !important;
+                        width: 93px !important;
                     }
                 }
                 .item-1 {
@@ -481,7 +485,7 @@
         }
         .soluciones .solucion .owl-carousel .owl-nav .owl-next {
             top: -825px;
-            left: 93%;
+            left: 90%;
         }
         .soluciones .solucion .owl-carousel .owl-nav .owl-prev {
             top: -825px;
@@ -489,6 +493,14 @@
         }
         .soluciones .solucion .text-solucion p {
             left: 182px;
+        }
+        .soluciones .solucion .owl-carousel .owl-nav .owl-next {
+            height: 1256px !important;
+            width: 100px !important;
+        }
+        .soluciones .solucion .owl-carousel .owl-nav .owl-prev {
+            height: 1256px !important;
+            width: 100px !important;
         }
     }
     
@@ -546,6 +558,17 @@
         }
     }
     
+    @media (max-width: 768px) {
+        .soluciones .solucion .owl-carousel .owl-nav .owl-next {
+            top: -825px;
+            left: 85%;
+            color: white;
+        }
+        .soluciones .solucion .owl-carousel .owl-nav .owl-prev {
+            color: white;
+        }
+    }
+    
     @media (max-width: 669px) {
         .soluciones .solucion-2 .cont-soluciones p {
             width: 466px;
@@ -573,6 +596,13 @@
     @media (max-width: 549px) {
         .soluciones .solucion-2 .cont-soluciones p {
             width: 417px;
+        }
+    }
+    
+    @media (max-width: 549px) {
+        .soluciones .solucion .owl-carousel .owl-nav .owl-prev {
+            top: -825px;
+            left: -4%;
         }
     }
     
