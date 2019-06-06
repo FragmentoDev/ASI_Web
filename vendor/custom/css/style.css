@@ -540,8 +540,8 @@ body {
     height: 48px; } }
 @media (max-width: 768px) {
   .soluciones .solucion .owl-carousel .owl-nav .owl-next {
-    top: -825px;
-    left: 85%;
+    top: -825px !important;
+    left: 85% !important;
     color: white; }
 
   .soluciones .solucion .owl-carousel .owl-nav .owl-prev {
@@ -559,12 +559,12 @@ body {
   .contactanos .formulario {
     text-align: left; } }
 @media (max-width: 549px) {
-  .soluciones .solucion-2 .cont-soluciones p {
-    width: 417px; } }
-@media (max-width: 549px) {
   .soluciones .solucion .owl-carousel .owl-nav .owl-prev {
     top: -825px;
-    left: -4%; } }
+    left: -4%; }
+
+  .soluciones .solucion-2 .cont-soluciones p {
+    width: 417px; } }
 @media (max-width: 541px) {
   .inicio .item-1 .tit-inicio {
     font-size: 19px;
@@ -585,7 +585,8 @@ body {
 @media (max-width: 449px) {
   .soluciones .solucion .owl-carousel .owl-nav .owl-next {
     top: -742px;
-    left: 87%; }
+    left: 80%;
+    width: 76px; }
 
   .soluciones .solucion .owl-carousel .owl-nav .owl-prev {
     top: -742px;
@@ -595,11 +596,20 @@ body {
     width: 323px; }
 
   .soluciones .solucion-2 .text-carousel #texto p {
-    left: 19%; } }
+    left: 19%; }
+
+  .soluciones .solucion .owl-carousel .owl-nav .owl-next {
+    top: -825px !important;
+    left: 77% !important;
+    color: white; } }
 @media (max-width: 461px) {
   .soluciones .solucion .text-solucion p {
     left: -174px;
     top: 218px; } }
+@media (max-width: 461px) {
+  .soluciones .solucion .owl-carousel .owl-nav .owl-next {
+    height: 1256px !important;
+    width: 67px !important; } }
 @media (max-width: 400px) {
   .soluciones .solucion .text-solucion p {
     left: -206px; } }

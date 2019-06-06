@@ -560,8 +560,8 @@
     
     @media (max-width: 768px) {
         .soluciones .solucion .owl-carousel .owl-nav .owl-next {
-            top: -825px;
-            left: 85%;
+            top: -825px!important;
+            left: 85%!important;
             color: white;
         }
         .soluciones .solucion .owl-carousel .owl-nav .owl-prev {
@@ -594,15 +594,12 @@
     }
     
     @media (max-width: 549px) {
-        .soluciones .solucion-2 .cont-soluciones p {
-            width: 417px;
-        }
-    }
-    
-    @media (max-width: 549px) {
         .soluciones .solucion .owl-carousel .owl-nav .owl-prev {
             top: -825px;
             left: -4%;
+        }
+        .soluciones .solucion-2 .cont-soluciones p {
+            width: 417px;
         }
     }
     
@@ -630,7 +627,8 @@
     @media (max-width: 449px) {
         .soluciones .solucion .owl-carousel .owl-nav .owl-next {
             top: -742px;
-            left: 87%;
+            left: 80%;
+            width: 76px;
         }
         .soluciones .solucion .owl-carousel .owl-nav .owl-prev {
             top: -742px;
@@ -645,12 +643,24 @@
         .soluciones .solucion-2 .text-carousel #texto p {
             left: 19%;
         }
+        .soluciones .solucion .owl-carousel .owl-nav .owl-next {
+            top: -825px !important;
+            left: 77% !important;
+            color: white;
+        }
     }
     
     @media (max-width: 461px) {
         .soluciones .solucion .text-solucion p {
             left: -174px;
             top: 218px;
+        }
+    }
+    
+    @media (max-width: 461px) {
+        .soluciones .solucion .owl-carousel .owl-nav .owl-next {
+            height: 1256px !important;
+            width: 67px !important;
         }
     }
     
