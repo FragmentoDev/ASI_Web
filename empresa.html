@@ -35,9 +35,9 @@
 <body data-spy="scroll" data-target=".navbar" data-offset="83">
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg p-0 navbar-light bg-light fixed-top">
+    <nav class="navbar  navbar-expand-lg  navbar-light bg-light fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="./index.html">
+            <a class="navbar-brand" href="#">
                 <img src="./vendor/custom/img/logo.png" alt="" class="img-fluid" width="120">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,10 +46,13 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a data-scroll class="nav-link" href="#inicio">Empresa</a>
+                        <a data-scroll class="nav-link" href="./index.html#servicios">Servicios</a>
                     </li>
                     <li class="nav-item">
-                        <a data-scroll class="nav-link" href="#servicios">Servicios</a>
+                        <a data-scroll class="nav-link" href="#inicio">Empresa</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a data-scroll class="nav-link " href="#servicios">Equipo</a>
                     </li>
 
                     <li class="nav-item">
@@ -59,6 +62,7 @@
             </div>
         </div>
     </nav>
+
 
     <!-- INICIO -->
     <section class="inicio-empresa" id="inicio">
@@ -83,7 +87,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col col-md-12 col-sm-12 col-12 col-xl-4 pt-3 tit-carousel-2">
-                                <p>Quienes somos</p>
+                                <p>Misión</p>
                             </div>
                             <div class="col">
                                 <p>No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las
@@ -99,7 +103,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col col-md-12 col-sm-12 col-12 col-xl-4 pt-3 tit-carousel-3">
-                                <p>Quienes somos</p>
+                                <p>Visión</p>
                             </div>
                             <div class="col">
                                 <p>No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las
@@ -115,7 +119,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col col-md-12 col-sm-12 col-12 col-xl-4 pt-3 tit-carousel-4">
-                                <p>Quienes somos</p>
+                                <p>Valores</p>
                             </div>
                             <div class="col">
                                 <p>No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las
@@ -144,8 +148,7 @@
             <div class="row">
                 <div class="col-sm-12 col-lg-6">
                     <div class="d-flex flex-row justify-content-around cont-servicios">
-
-                        <div class="d-flex flex-column">
+                        <div class="d-flex flex-column  wow fadeInLeft" style="text-align:left;" data-wow-duration="2s">
                             <hr class="linea-vertical">
                             <p class="m-0"><b>MANF</b></p>
                             <p class="m-0">Rolando Herrera valdez</p>
@@ -163,7 +166,7 @@
                             <p class="m-0">Rolando Herrera valdez</p>
                             <p class="m-0">T.6681 51 0708</p>
                         </div>
-                        <div class="d-flex flex-column p-0 esp">
+                        <div class="d-flex flex-column p-0 esp text-right wow fadeInRight" data-wow-duration="2s">
                             <p class="m-0"><b>Electricidad/Obra civil</b></p>
                             <p class="m-0">Rolando Herrera valdez</p>
                             <p class="m-0">T.6681 51 0708</p>
@@ -183,25 +186,22 @@
                     </div>
                 </div>
                 <div class="col-sm-12 col-lg-6 columna-2-empresa ">
-                    <img class="img-respon-empresa img-fluid" src="./vendor/custom/img/equipo.png" alt="" style="width: 100%;height: 350px;">
-                    <div class="d-flex flex-row justify-content-between">
-                        <div class="">
-                            <img src="./vendor/custom/img/logo.png" alt="" style="width: 132px;height: 64px;margin-top: 18px;" class="img-fluid">
-                        </div>
-                        <div class="">
-                            <div class="txt-servi-col2">
-                                <p style="font-size: 28px;">Equipo ASI <b>2018</b></p>
-                                <p style="font-size: 18px;">asdasdsadasdasdasd</p>
-                                <p style="font-size: 18px;">asdasdasdadsdasdasd</p>
-                                <hr style="height: 22px; width: 100%; background-color: #FF0000;">
-                            </div>
+                    <img class="img-respon-empresa img-fluid wow fadeIn" data-wow-duration="2s" src="./vendor/custom/img/equipo.png" alt="" style="width: 100%;height: 350px;">
+                    <div class="d-flex flex-row justify-content-between  padding">
+                        <img src="./vendor/custom/img/logo.png" alt="" style="width: 132px;height: 64px;margin-top: 18px;" class="img-fluid">
+                        <div class="txt-servi-col2">
+                            <p class="txt-1" style="font-size: 28px;">Equipo ASI <b>2018</b></p>
+                            <p class="txt-2" style="font-size: 18px;">asdasdsadasdasdasd</p>
+                            <p class="txt-3" style="font-size: 18px;">asdasdasdadsdasdasd</p>
+                            <hr style="height: 22px; width: 100%; background-color: #FF0000;">
+
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-12">
-                    <p style="font-size: 32px;font-weight: 700;">Nuestra historia</p>
+                <div class="col-12 nuestra-historia">
+                    <p>Nuestra historia</p>
                 </div>
             </div>
         </div>
@@ -225,11 +225,11 @@
     <!-- CONTACTANOS -->
     <section class="contactanos pt-5" id="contactanos">
         <div class="txt-contactanos">
-            <p>Contáctanos</p>
+            <p class="wow fadeInUp" data-wow-duration="2s">Contáctanos</p>
         </div>
         <div class="container margen">
             <div class="row formulario ">
-                <form id="contact-form" method="post" role="form" class="col-xl-6 col-mb-12">
+                <form id="contact-form" method="post" role="form" class="col-xl-6 col-mb-12 wow fadeInLeft" data-wow-duration="2s">
                     <div class="form-contacto row">
                         <p for="form_name" class="col-sm-2 ">Nombre</p>
                         <div class="col-sm-10">
@@ -255,7 +255,7 @@
                             <div class="form-group txt-checkbox">
 
                             </div>
-                            <div class="form-contacto form-check ">
+                            <div class="form-contacto form-check pl-0">
                                 <div class="back-checkbox ">
                                     <button type="submit " class="btn btn-primary btn-send  " value="Enviar ">Enviar</button>
                                 </div>
@@ -264,21 +264,28 @@
                     </div>
                 </form>
                 <div class="col">
-                    <div class="txt-comentarios">
+                    <div class="txt-comentarios wow fadeInRight " data-wow-duration="2s">
                         <p><b>Agradecemos</b> tus <br><b>comentarios</b> </p>
-                        <img src="./vendor/custom/img/icon-logo.png" alt=" " style="width: 100px;height: 100px; ">
+                        <img class="img-contact img-fluid" src="./vendor/custom/img/icon-logo.png " alt=" " style="width: 100px;height: 100px; ">
                         <p class="pt-3"><b>Llámanos y cotiza.</b></p>
                     </div>
                 </div>
             </div>
 
+
             <!-- FOOTER -->
-            <div class="row mt-5">
-                <div class="col pt-3" style="font-size:10px;">
-                    <p>Asi Automatización y servicios de ingeniería (Servicios integrales) 2018</p>
+            <div class="row mt-5 footer" style="height: 35px">
+                <div class="col pt-3 txt-footer" style="font-size:10px;">
+                    <p><b style="font-size: 13px">T. 667 123 45 67</b> </p>
+
                 </div>
-                <div class="col text-right ">
-                    <p>T. 667 123 45 67 <br> Asiservicios@gmail.com </p>
+                <div class="col pt-2 text-right  ">
+                    <p> asiservicios@gmail.com </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col m-0" style="font-size:10px;">
+                    <p>Asi Automatización y servicios de ingeniería (Servicios integrales) 2018 </p>
                 </div>
             </div>
         </div>
