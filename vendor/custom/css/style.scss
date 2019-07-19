@@ -29,6 +29,38 @@
         }
         
         //INICIO
+        .carousel-header {
+            width: 100%;
+            height: 100vh;
+            .owl-carousel {
+                height: 100%;
+                .item-1 {
+                    background: url("../img/inicio.png");
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    height: 100vh;
+                }
+                .item-2 {
+                    background: url("../img/inicio.png");
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    height: 100vh;
+                }
+                .item-3 {
+                    background: url("../img/inicio.png");
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    height: 100vh;
+                }
+                .item-4 {
+                    background: url("../img/inicio.png");
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    height: 100vh;
+                }
+            }
+        }
+        
         .inicio {
             z-index: 1;
             .item-1 {
